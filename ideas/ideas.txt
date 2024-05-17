@@ -1,0 +1,18 @@
+
+-- Ideas para el videojuego --
+- Si gastas todas las vidas --> Indicar el juego ✅
+- Si sale un juego que no vuelva a salir ✅
+- Añadir boton de "Saltar" el juego ✅
+- Agregar un sistema de pistas ✅
+- Compartir puntuación en redes sociales ✅
+- Poner diferentes idiomas
+- Agregar niveles de dificultad
+- Agregar logros
+- Agregar tablas de clasificacion
+- Soporte para el streaming (Twitch)
+- Agregar tienda con puntos
+- Modo de juego infinito
+- Modo de juego con tiempo
+- Sistema de personalización
+- Sistema de inicio de sesion
+- Agregar desbloqueables especiales

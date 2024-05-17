@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/awesomplete/1.1.2/awesomplete.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🎮Emojijuegos | Adivina el videojuego con emoticonos🕹️</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <meta
+      name="description"
+      content="Emojijuegos es un juego divertido en el que tienes que adivinar el nombre del videojuego representado por una serie de emoticonos. Pon a prueba tus conocimientos sobre videojuegos y compite por la puntuación más alta."
+    />
+    <meta
+      name="keywords"
+      content="Emojijuegos Emojis Emoticonos Videojuego Videojuegos"
+    />
+    <meta name="author" content="AstralByteStudios" />
+    <link rel="shortcut icon" href="/assets/iconos/icono.jpg" type="image/x-icon" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Emojijuegos</h1>
+      <div class="redes" id="redes">
+        <a
+          href="https://www.instagram.com/astral_byte_studios/"
+          target="_blank"
+          ><img src="/assets/iconos/instagram.png" alt="Icono de Instagram"
+        /></a>
+        <a href="https://twitter.com/astralbytee" target="_blank"
+          ><img src="/assets/iconos/twitter.png" alt="Icono de Twitter"
+        /></a>
+      </div>
+    </header>
+
+    <div id="help-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h1>¿Cómo jugar?</h1>
+        <p>Se mostrará una serie de emoticonos que representan el nombre de un videojuego</p>
+          <p>Intenta adivinar el nombre del videojuego escribiéndolo en el campo de texto</p>
+          <p>Presiona el botón "¡Adivinar!" para verificar tu respuesta</p>
+          <p>Tienes 4 vidas y cada vez que falles el videojuego se te va a quitar una</p>
+          <p>Si necesitas pistas, solo tienes que darle al boton de "Saltar" pero piensa que se te quita una vida</p>
+          <p>Gana puntos por cada respuesta correcta y compite por la puntuación más alta</p></p>
+          <p>Comparte tu puntuació más alta en las redes sociales</p>
+      </div>
+    </div>
+
+    <div id="info-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h1>¡Atención!</h1>
+          <p>Este juego esta en desarrollo y puede haber fallos</p></p>
+          <p>Puedes contactar con nosotros para informarnos de ellos</p>
+      </div>
+    </div>
+
+    <div id="copy-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h1>Inspiraciones</h1>
+          <p>Este juego esta inspirado en:</p></p>
+          <ul>
+            <li><a href="https://www.gamedle.wtf" target="_blank">Gamedle</a></li>
+            <li><a href="https://guessthe.game/" target="_blank">GuessTheGame</a></li>
+            <li><a href="https://store.steampowered.com/app/2813380/Mega_Quiz_Gaming/" target="_blank">Mega Quiz Gaming</a></li>
+          </ul>
+      </div>
+    </div>  
+
+    <main>
+      <button id="help-button">❓</button>
+      <button id="info-button">⚠️</button>
+      <button id="copy-button">💞</button>
+
+      <div id="game-container">
+        <p id="emote-display"></p>
+        <input
+          type="text"
+          id="guess-input"
+          placeholder="¿Cuál es el videojuego?"
+        />
+        <div id="button-container">
+          <button id="submit-guess">¡Adivinar!</button>
+          <button id="skip-button">Saltar</button>
+        </div>
+        <div id="pistas-display"></div>
+        <p id="result"></p>
+        <div id="lives-container">
+          <span id="life1" class="life">&#10084;&#65039;</span>
+          <span id="life2" class="life">&#10084;&#65039;</span>
+          <span id="life3" class="life">&#10084;&#65039;</span>
+        </div>
+        <div id="score-display">
+          <p>Puntuación actual: <span id="current-score">0</span></p>
+          <p>Puntuación máxima: <span id="max-score">0</span></p>
+        </div>
+      </div>
+
+      <div id="game-over-screen" class="game-over-screen">
+        <p><span id="game-over-score"></span></p>
+        <p id="correct-game"></p>
+        <button id="retry-button">Intentarlo de nuevo</button>
+        <div id="share-buttons">
+          <button class="share-twitter" id="share-twitter">
+            Compartir en Twitter
+          </button>
+          <button id="share-whatsapp">Compartir en WhatsApp</button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <img src="/assets/iconos/astral.png" title="Logotipo de la marca Astral Byte Studios" alt="Logotipo de la marca Astral Byte Studios">
+      <p>© 2023 Astral Byte Studios. Todos los derechos reservados.</p>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/awesomplete/1.1.2/awesomplete.min.js"
+      defer
+    ></script>
+    <script src="/script.js" defer></script>
+  </body>
+</html>

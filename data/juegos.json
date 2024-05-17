@@ -1,0 +1,602 @@
+{
+  "videojuegos": [
+    {
+      "nombre": "Super Mario Bros",
+      "emotes": "👸🏼 🧑🏼‍🔧 🏰",
+      "pistas": ["💽: 1985", "🕹️: NES", "👨‍💻: Nintendo"]
+    },
+    {
+      "nombre": "The Legend of Zelda",
+      "emotes": "🗡️ 🛡️ 🎮",
+      "pistas": ["💽: 2004", "🕹️: Game Boy Advance", "👨‍💻: Nintendo / Flagship"]
+    },
+    {
+      "nombre": "Minecraft",
+      "emotes": "⛏️ 🟩 🐄",
+      "pistas": ["💽: 2009", "🕹️: PC", "👨‍💻: Mojang Studios"]
+    },
+    {
+      "nombre": "Pokémon",
+      "emotes": "⚡ 🔥 💧",
+      "pistas": ["💽: 1996", "🕹️: Game Boy", "👨‍💻: Game Freak"]
+    },
+    {
+      "nombre": "Donkey Kong",
+      "emotes": "🦍 🍌 🪓",
+      "pistas": ["💽: 1981", "🕹️: Arcade", "👨‍💻: Nintendo"]
+    },
+    {
+      "nombre": "Pac-Man",
+      "emotes": "🔴 🟡 👻",
+      "pistas": ["💽: 1980", "🕹️: Arcade", "👨‍💻: Namco"]
+    },
+    {
+      "nombre": "Call of Duty",
+      "emotes": "🔫 💣 💥",
+      "pistas": ["💽: 2003", "🕹️: PC", "👨‍💻: Infinity Ward"]
+    },
+    {
+      "nombre": "League of Legends",
+      "emotes": "😡 👿 ⚔️",
+      "pistas": ["💽: 2009", "🕹️: PC", "👨‍💻: Riot Games"]
+    },
+    {
+      "nombre": "Assassin's Creed",
+      "emotes": "🗡️ 🏹 🏰",
+      "pistas": ["💽: 2008", "🕹️: PS3 / XBOX360", "👨‍💻: Ubisoft"]
+    },
+    {
+      "nombre": "Among Us",
+      "emotes": "👨‍🚀 👾 🕵️",
+      "pistas": ["💽: 2018", "🕹️: PC", "👨‍💻: Innersloth"]
+    },
+    {
+      "nombre": "GTA",
+      "emotes": "🏙️ 🚗 🔫",
+      "pistas": ["💽: 1997", "🕹️: PC", "👨‍💻: Rockstar Games"]
+    },
+    {
+      "nombre": "FIFA",
+      "emotes": "⚽ 🎮 🏆",
+      "pistas": ["💽: 1995", "🕹️: PSX", "👨‍💻: EA Sports"]
+    },
+    {
+      "nombre": "Sonic",
+      "emotes": "🦔 💨 💍",
+      "pistas": ["💽: 1991", "🕹️: Mega Drive", "👨‍💻: Sega"]
+    },
+    {
+      "nombre": "Street Fighter",
+      "emotes": "🥋 🥊 💥",
+      "pistas": ["💽: 1987", "🕹️: Arcade", "👨‍💻: Capcom"]
+    },
+    {
+      "nombre": "The Sims",
+      "emotes": "🏡 👨‍👩‍👧‍👦 🛋️",
+      "pistas": ["💽: 2000", "🕹️: GameCube / PS2 / XBOX", "👨‍💻: Electronic Arts"]
+    },
+    {
+      "nombre": "Portal",
+      "emotes": "🎂 🦾 🔵",
+      "pistas": ["💽: 2007", "🕹️: PC / PS3 / XBOX360", "👨‍💻: Valve"]
+    },
+    {
+      "nombre": "Fallout",
+      "emotes": "☢️ 🔫 💀",
+      "pistas": ["💽: 1997", "🕹️: PC", "👨‍💻: Interplay Entertainment"]
+    },
+    {
+      "nombre": "Metal Gear Solid",
+      "emotes": "🤖 🔫 🐍",
+      "pistas": ["💽: 1998", "🕹️: PlayStation", "👨‍💻: Konami"]
+    },
+    {
+      "nombre": "Kingdom Hearts",
+      "emotes": "🔑 ❤️ 🗝️",
+      "pistas": ["💽: 2002", "🕹️: PlayStation 2", "👨‍💻: Square Enix"]
+    },
+    {
+      "nombre": "Mortal Kombat",
+      "emotes": "🩸 🥋 🔥",
+      "pistas": ["💽: 1992", "🕹️: Arcade", "👨‍💻: Midway Games"]
+    },
+    {
+      "nombre": "Red Dead Redemption",
+      "emotes": "🤠 🐎 🔫",
+      "pistas": [
+        "💽: 2010",
+        "🕹️: PlayStation 3, Xbox 360",
+        "👨‍💻: Rockstar Games"
+      ]
+    },
+    {
+      "nombre": "Counter-Strike",
+      "emotes": "🔫 💣 🏆",
+      "pistas": ["💽: 2000", "🕹️: PC", "👨‍💻: Valve"]
+    },
+    {
+      "nombre": "Diablo",
+      "emotes": "🔥 👹 ⚔️",
+      "pistas": ["💽: 1996", "🕹️: PC", "👨‍💻: Blizzard Entertainment"]
+    },
+    {
+      "nombre": "The Witcher",
+      "emotes": "🧙‍♂️ 🗡️ 🐉",
+      "pistas": ["💽: 2007", "🕹️: PC", "👨‍💻: CD Projekt"]
+    },
+    {
+      "nombre": "Fortnite",
+      "emotes": "🏰 🔨 💥",
+      "pistas": ["💽: 2017", "🕹️: PC", "👨‍💻: Epic Games"]
+    },
+    {
+      "nombre": "Civilization",
+      "emotes": "🌍 🏛️ 👑",
+      "pistas": ["💽: 1991", "🕹️: PC", "👨‍💻: MicroProse"]
+    },
+    {
+      "nombre": "God of War",
+      "emotes": "⚔️ 🛡️ 🏛️",
+      "pistas": ["💽: 2005", "🕹️: PlayStation 2", "👨‍💻: Santa Monica Studio"]
+    },
+    {
+      "nombre": "Watch Dogs",
+      "emotes": "👁️ 💻 🔫",
+      "pistas": [
+        "💽: 2014",
+        "🕹️: PC, PlayStation 3, PlayStation 4, Xbox 360, Xbox One",
+        "👨‍💻: Ubisoft"
+      ]
+    },
+    {
+      "nombre": "Splatoon",
+      "emotes": "🦑 🦑 🎨",
+      "pistas": ["💽: 2015", "🕹️: Wii U, Nintendo Switch", "👨‍💻: Nintendo"]
+    },
+    {
+      "nombre": "Dead Space",
+      "emotes": "👽 👻 🔫",
+      "pistas": [
+        "💽: 2008",
+        "🕹️: PC, PlayStation 3, Xbox 360",
+        "👨‍💻: Electronic Arts"
+      ]
+    },
+    {
+      "nombre": "Star Fox",
+      "emotes": "🦊 🚀 🎮",
+      "pistas": [
+        "💽: 1993",
+        "🕹️: Super Nintendo Entertainment System",
+        "👨‍💻: Nintendo"
+      ]
+    },
+    {
+      "nombre": "Animal Crossing",
+      "emotes": "🏡 🍃 🐾",
+      "pistas": ["💽: 2001", "🕹️: GameCube", "👨‍💻: Nintendo"]
+    },
+    {
+      "nombre": "Crash Bandicoot",
+      "emotes": "🦊 🍎 👟",
+      "pistas": ["💽: 1996", "🕹️: PlayStation", "👨‍💻: Naughty Dog"]
+    },
+    {
+      "nombre": "Spyro the Dragon",
+      "emotes": "🐉 🔥 💎",
+      "pistas": ["💽: 1998", "🕹️: PlayStation", "👨‍💻: Insomniac Games"]
+    },
+    {
+      "nombre": "Frogger",
+      "emotes": "🐸 🛣️ 🚗",
+      "pistas": ["💽: 1981", "🕹️: Arcade", "👨‍💻: Konami"]
+    },
+    {
+      "nombre": "Need for Speed",
+      "emotes": "🚗 🏁 🔥",
+      "pistas": [
+        "💽: 1994",
+        "🕹️: 3DO, PlayStation, Sega Saturn",
+        "👨‍💻: Electronic Arts"
+      ]
+    },
+    {
+      "nombre": "Tony Hawk's Pro Skater",
+      "emotes": "🛹 🏂 🎮",
+      "pistas": [
+        "💽: 1999",
+        "🕹️: PlayStation, Nintendo 64, Dreamcast",
+        "👨‍💻: Neversoft"
+      ]
+    },
+    {
+      "nombre": "SimCity",
+      "emotes": "🌆 🏗️ 🔧",
+      "pistas": ["💽: 1989", "🕹️: PC", "👨‍💻: Maxis"]
+    },
+    {
+      "nombre": "Wii Sports",
+      "emotes": "🎾 🏀 🏋️",
+      "pistas": ["💽: 2006", "🕹️: Wii", "👨‍💻: Nintendo"]
+    },
+    {
+      "nombre": "Angry Birds",
+      "emotes": "🐦 🐷 🎯",
+      "pistas": ["💽: 2009", "🕹️: iOS, Android", "👨‍💻: Rovio Entertainment"]
+    },
+    {
+      "nombre": "Cuphead",
+      "emotes": "🥤 🎭 👹",
+      "pistas": [
+        "💽: 2017",
+        "🕹️: PC, Xbox One, Nintendo Switch",
+        "👨‍💻: Studio MDHR"
+      ]
+    },
+    {
+      "nombre": "Tetris",
+      "emotes": "🟥 🟧 🟨",
+      "pistas": ["💽: 1984", "🕹️: Multiple", "👨‍💻: Alexey Pajitnov"]
+    },
+    {
+      "nombre": "Guitar Hero",
+      "emotes": "🎸 🎶 🎮",
+      "pistas": ["💽: 2005", "🕹️: PlayStation 2", "👨‍💻: Harmonix"]
+    },
+    {
+      "nombre": "Left 4 Dead",
+      "emotes": "🧟‍♂️ 🏃 🔫",
+      "pistas": ["💽: 2008", "🕹️: PC, Xbox 360", "👨‍💻: Valve"]
+    },
+    {
+      "nombre": "The Last of Us",
+      "emotes": "🧟‍♂️ 🌿 🔫",
+      "pistas": [
+        "💽: 2013",
+        "🕹️: PlayStation 3, PlayStation 4",
+        "👨‍💻: Naughty Dog"
+      ]
+    },
+    {
+      "nombre": "Death Stranding",
+      "emotes": "🚶 📦 ⚡",
+      "pistas": [
+        "💽: 2019",
+        "🕹️: PlayStation 4, Microsoft Windows",
+        "👨‍💻: Kojima Productions"
+      ]
+    },
+    {
+      "nombre": "Uncharted",
+      "emotes": "🏹 🌴 🗺️",
+      "pistas": ["💽: 2007", "🕹️: PlayStation 3", "👨‍💻: Naughty Dog"]
+    },
+    {
+      "nombre": "Dark Souls",
+      "emotes": "🛡️ 🗡️ 💀",
+      "pistas": ["💽: 2011", "🕹️: PlayStation 3, Xbox 360", "👨‍💻: FromSoftware"]
+    },
+    {
+      "nombre": "Silent Hill",
+      "emotes": "🤫 🗻 🔪",
+      "pistas": ["💽: 1999", "🕹️: PlayStation", "👨‍💻: Konami"]
+    },
+    {
+      "nombre": "Batman",
+      "emotes": "🦇 🏙️ 🔒",
+      "pistas": [
+        "💽: 2009",
+        "🕹️: PlayStation 3, Xbox 360",
+        "👨‍💻: Rocksteady Studios"
+      ]
+    },
+    {
+      "nombre": "Stardew Valley",
+      "emotes": "🌾 🐔 🌟",
+      "pistas": [
+        "💽: 2016",
+        "🕹️: PC, PlayStation 4, Xbox One, Nintendo Switch",
+        "👨‍💻: ConcernedApe"
+      ]
+    },
+    {
+      "nombre": "Borderlands",
+      "emotes": "🌵 🤠 🔫",
+      "pistas": [
+        "💽: 2009",
+        "🕹️: PlayStation 3, Xbox 360",
+        "👨‍💻: Gearbox Software"
+      ]
+    },
+    {
+      "nombre": "Control",
+      "emotes": "🧊 🔫 🌌",
+      "pistas": [
+        "💽: 2019",
+        "🕹️: PC, PlayStation 4, Xbox One",
+        "👨‍💻: Remedy Entertainment"
+      ]
+    },
+    {
+      "nombre": "Cyberpunk 2077",
+      "emotes": "🌆 🤖 🔫",
+      "pistas": [
+        "💽: 2020",
+        "🕹️: PC, PlayStation 4, Xbox One, Stadia",
+        "👨‍💻: CD Projekt"
+      ]
+    },
+    {
+      "nombre": "Rust",
+      "emotes": "🔪 💢 🔫",
+      "pistas": ["💽: 2013", "🕹️: PC", "👨‍💻: Facepunch Studios"]
+    },
+    {
+      "nombre": "Raft",
+      "emotes": "🌊​ 🛶 🎣​",
+      "pistas": ["💽: 2018", "🕹️: PC", "👨‍💻: Redbeet Interactive"]
+    },
+    {
+      "nombre": "NBA 2K",
+      "emotes": "🏀​ 🎮​ 🏆​​",
+      "pistas": ["💽: 1999", "🕹️: Multiple", "👨‍💻: Visual Concepts"]
+    },
+    {
+      "nombre": "AO Tennis 2",
+      "emotes": "🎾 👟​ 🇦🇺​​​",
+      "pistas": ["💽: 2020", "🕹️: Multiple", "👨‍💻: Big Ant Studios"]
+    },
+    {
+      "nombre": "Hogwarts Legacy",
+      "emotes": "🪄 🧹 🤓​",
+      "pistas": ["💽: 2022", "🕹️: Multiple", "👨‍💻: Portkey Games"]
+    },
+    {
+      "nombre": "Euro Truck Simulator 2",
+      "emotes": "🚚 📦 ​🎶",
+      "pistas": ["💽: 2012", "🕹️: PC", "👨‍💻: SCS Software"]
+    },
+    {
+      "nombre": "Gas Station Simulator",
+      "emotes": "⛽ 🏪 🤑",
+      "pistas": ["💽: 2020", "🕹️: PC", "👨‍💻: DRAGO entertainment"]
+    },
+    {
+      "nombre": "Golf It!",
+      "emotes": "⛳ 🏌️ 🥵",
+      "pistas": ["💽: 2017", "🕹️: PC", "👨‍💻: Perfuse Entertainment"]
+    },
+    {
+      "nombre": "Ready or Not",
+      "emotes": "👮 🔫 ☠️",
+      "pistas": ["💽: 2022", "🕹️: PC", "👨‍💻: VOID Interactive"]
+    },
+    {
+      "nombre": "Food Truck Simulator",
+      "emotes": "🍕 🛻 🧑🏻‍🍳",
+      "pistas": ["💽: 2021", "🕹️: PC", "👨‍💻: Northwood Studios"]
+    },
+    {
+      "nombre": "Sea of Thieves",
+      "emotes": "🌊 ⚔️ ⛵",
+      "pistas": ["💽: 2018", "🕹️: PC, Xbox One", "👨‍💻: Rare"]
+    },
+    {
+      "nombre": "Phasmophobia",
+      "emotes": "👻 😱 😢",
+      "pistas": ["💽: 2020", "🕹️: PC", "👨‍💻: Kinetic Games"]
+    },
+    {
+      "nombre": "Train Station Renovation",
+      "emotes": "🚂 🧽 🛤️",
+      "pistas": ["💽: 2019", "🕹️: PC", "👨‍💻: Live Motion Games"]
+    },
+    {
+      "nombre": "Dead Island",
+      "emotes": "💀 🏝️ 🔪",
+      "pistas": ["💽: 2011", "🕹️: PC, PlayStation 3, Xbox 360", "👨‍💻: Techland"]
+    },
+    {
+      "nombre": "Papers, Please",
+      "emotes": "📋 🙏 🚨",
+      "pistas": ["💽: 2013", "🕹️: PC", "👨‍💻: Lucas Pope"]
+    },
+    {
+      "nombre": "It Takes Two",
+      "emotes": "🧶 💔 👥",
+      "pistas": [
+        "💽: 2021",
+        "🕹️: PC, PlayStation 4, Xbox One",
+        "👨‍💻: Hazelight Studios"
+      ]
+    },
+    {
+      "nombre": "The Forest",
+      "emotes": "🌳 🪓 ✈️",
+      "pistas": ["💽: 2018", "🕹️: PC, PlayStation 4", "👨‍💻: Endnight Games"]
+    },
+    {
+      "nombre": "theHunter: Call of the Wild™",
+      "emotes": "🔪 🦌 🌳",
+      "pistas": [
+        "💽: 2017",
+        "🕹️: PC, PlayStation 4, Xbox One",
+        "👨‍💻: Expansive Worlds"
+      ]
+    },
+    {
+      "nombre": "Cult of the Lamb",
+      "emotes": "✡ 🐑 🔥",
+      "pistas": [
+        "💽: 2022",
+        "🕹️: PC, PlayStation 4, Xbox One, Nintendo Switch",
+        "👨‍💻: Massive Monster"
+      ]
+    },
+    {
+      "nombre": "Stray",
+      "emotes": "🐈 🎒 🌃",
+      "pistas": [
+        "💽: 2022",
+        "🕹️: PlayStation 4, PlayStation 5, PC",
+        "👨‍💻: BlueTwelve Studio"
+      ]
+    },
+    {
+      "nombre": "ARK: Survival Evolved",
+      "emotes": "🦖 🗡️ 🏹",
+      "pistas": [
+        "💽: 2017",
+        "🕹️: PC, PlayStation 4, Xbox One, Switch",
+        "👨‍💻: Studio Wildcard"
+      ]
+    },
+    {
+      "nombre": "Party Animals",
+      "emotes": "🪩 🦍 🐇",
+      "pistas": [
+        "💽: 2020",
+        "🕹️: PC, Xbox One, Xbox Series X/S",
+        "👨‍💻: Recreate Games"
+      ]
+    },
+    {
+      "nombre": "Marvel’s Spider-Man",
+      "emotes": "🕷️ 🕸️ 📷",
+      "pistas": ["💽: 2018", "🕹️: PlayStation 4", "👨‍💻: Insomniac Games"]
+    },
+    {
+      "nombre": "DAVE THE DIVER",
+      "emotes": "🤿 👨 ⚓",
+      "pistas": [
+        "💽: 2022",
+        "🕹️: PC, PlayStation 4, PlayStation 5",
+        "👨‍💻: Wildbit Studios"
+      ]
+    },
+    {
+      "nombre": "Microsoft Flight Simulator",
+      "emotes": "🛫 👨‍✈️ 🛬",
+      "pistas": ["💽: 2020", "🕹️: PC, Xbox Series X/S", "👨‍💻: Asobo Studio"]
+    },
+    {
+      "nombre": "House Flipper",
+      "emotes": "🏚️ ➡️ 🏡",
+      "pistas": ["💽: 2018", "🕹️: PC, PlayStation 4, Xbox One", "👨‍💻: Empyrean"]
+    },
+    {
+      "nombre": "Balatro",
+      "emotes": "🃏 ♠️ ♦️",
+      "pistas": ["💽: 2021", "🕹️: PC", "👨‍💻: SoftDrink"]
+    },
+    {
+      "nombre": "Rocket League",
+      "emotes": "🚀 🚗 🥅",
+      "pistas": [
+        "💽: 2015",
+        "🕹️: PC, PlayStation 4, Xbox One, Switch",
+        "👨‍💻: Psyonix"
+      ]
+    },
+    {
+      "nombre": "Just Dance",
+      "emotes": "🕺 💃 🥳",
+      "pistas": ["💽: 2009", "🕹️: Wii", "👨‍💻: Ubisoft"]
+    },
+    {
+      "nombre": "F1®",
+      "emotes": "🏎️ ⚙️ 🔧",
+      "pistas": ["💽: 1997", "🕹️: PSX", "👨‍💻: Bizarre Creations"]
+    },
+    {
+      "nombre": "Chair Simulator",
+      "emotes": "🪑 🪑 🪑",
+      "pistas": ["💽: 2021", "🕹️: PC", "👨‍💻: MSCHF Product Studio Inc"]
+    },
+    {
+      "nombre": "7 Days to Die",
+      "emotes": "7️⃣ ☀️ 🪦",
+      "pistas": ["💽: 2013", "🕹️: PC", "👨‍💻: The Fun Pimps"]
+    },
+    {
+      "nombre": "LITTLE NIGHTMARES",
+      "emotes": "🤏 🛌 😢",
+      "pistas": ["💽: 2017", "🕹️: PC / PS4 / XBOXOne", "👨‍💻: Tarsier Studios"]
+    },
+    {
+      "nombre": "Kirby",
+      "emotes": "😮 🎪 🩷",
+      "pistas": ["💽: 1992", "🕹️: Game Boy", "👨‍💻: Nintendo"]
+    },
+    {
+      "nombre": "Prince of Persia",
+      "emotes": "🤴 ⚔️ 🏜️",
+      "pistas": ["💽: 2003", "🕹️: PC / PS2 / GameCube", "👨‍💻: Ubisoft"]
+    },
+    {
+      "nombre": "Big Brain Academy",
+      "emotes": "🧠 🧮 📚",
+      "pistas": ["💽: 2006", "🕹️: NintendoDS / Wii / Wii U", "👨‍💻: Nintendo"]
+    },
+    {
+      "nombre": "SpongeBob SquarePants",
+      "emotes": "🧽 🦞 🦑",
+      "pistas": ["💽: 2004", "🕹️: Game Boy Advance", "👨‍💻: THQ"]
+    },
+    {
+      "nombre": "Ghost Song",
+      "emotes": "👻 🎶 🎷",
+      "pistas": ["💽: 2022", "🕹️: PC / PS4 / PS5 / Switch / XBOX X/S / XBOXONE", "👨‍💻: Humble Games"]
+    },
+    {
+      "nombre": "Marvel's Guardians of the Galaxy",
+      "emotes": "💂 🌌 🎙️",
+      "pistas": ["💽: 2017", "🕹️: Iphone / Android", "👨‍💻: Telltale Games"]
+    },
+    {
+      "nombre": "High School Musical",
+      "emotes": "☝️​ 🏫​ 🏀​",
+      "pistas": ["💽: 2008", "🕹️: PC / PS2 / XBOX 360", "👨‍💻: Page 44 Studios"]
+    },
+    {
+      "nombre": "Goat Simulator",
+      "emotes": "🐐 🚶🏻‍♂️ 👅​",
+      "pistas": ["💽: 2014", "🕹️: Xbox 360 / PC /Xbox One", "👨‍💻: Coffee Stain Studios"]
+    },
+    {
+      "nombre": "Pro Cycling Manager",
+      "emotes": "🔝 🚴​ 🧑🏻‍💼",
+      "pistas": ["💽: 2008", "🕹️: PC", "👨‍💻: Cyanide"]
+    },
+    {
+      "nombre": "Farming Simulator",
+      "emotes": "🧑‍🌾 🧺 🚜",
+      "pistas": ["💽: 2008", "🕹️: PC", "👨‍💻: GIANTS Software"]
+    },
+    {
+      "nombre": "Dying Light",
+      "emotes": "💀 🔦 🧟",
+      "pistas": ["💽: 2015", "🕹️: PS4", "👨‍💻: Techland"]
+    },
+    {
+      "nombre": "Call of Juarez",
+      "emotes": "📞 🌮 🤠",
+      "pistas": ["💽: 2007", "🕹️: PC / Xbox360 / PS3", "👨‍💻: Techland"]
+    },
+    {
+      "nombre": "Little Kitty, Big City",
+      "emotes": "🤏 🐈‍⬛ 🏙️",
+      "pistas": ["💽: 2024", "🕹️: PC / Switch / XBOX X/S / XBOXONE", "👨‍💻: Double Dagger Studio"]
+    },
+    {
+      "nombre": "No Man's Sky",
+      "emotes": "​🚫​ 👬🏽​ 🪐​",
+      "pistas": ["💽: 2016", "🕹️: PS4", "👨‍💻: Hello Games"]
+    },
+    {
+      "nombre": "Beyond: Two Souls",
+      "emotes": "​​🧠​ ​👥​ 😈​​",
+      "pistas": ["💽: 2013", "🕹️: PS3", "👨‍💻: Quantic Dream"]
+    }
+  ]
+}

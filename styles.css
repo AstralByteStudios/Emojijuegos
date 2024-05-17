@@ -1,0 +1,396 @@
+/* Reset y Configuración General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* Fuentes */
+@font-face {
+  font-family: "gameplay";
+  src: url("/assets/fonts/Gameplay.ttf");
+}
+
+/* Estructura Básica */
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #002c49;
+}
+
+/* Encabezado */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 500px;
+  width: fit-content;
+  padding: 30px 50px;
+  margin: 30px auto;
+  color: white;
+  border-radius: 80000px;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+
+  h1 {
+    font-size: 2rem;
+    font-family: gameplay;
+    letter-spacing: 0.25rem;
+  }
+
+  #redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    img {
+      width: 30px;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    img:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+/* Modales */
+.modal {
+  /* Estilos comunes para todos los modales */
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  text-align: center;
+}
+
+.modal-content {
+  /* Estilos específicos para el contenido del modal */
+  background-color: #fefefe;
+  margin: auto;
+  padding: 50px;
+  border: 1px solid #888;
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 20px;
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 30px; /* Simplificado */
+  }
+
+  p {
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin: 15px auto;
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 30px auto;
+    list-style: none;
+  }
+
+  a {
+    /* Estilos para enlaces dentro del modal */
+    background-color: #5d99b4;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+}
+
+/* Botón de Cierre */
+.close {
+  color: #ffffff;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Contenido Principal */
+main {
+  width: 50%;
+  margin: 50px auto;
+  text-align: center;
+
+  /* Estilos para botones */
+  button {
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 5px; /* Simplificado */
+    border: transparent;
+  }
+
+  /* Estilos específicos para el juego */
+  #game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+
+    #emote-display {
+      font-size: 4rem;
+      width: fit-content;
+      padding: 10px 60px;
+      margin: auto;
+      background-color: rgba(72, 69, 255, 0.781);
+      border-radius: 80000px;
+    }
+
+    input {
+      border: transparent;
+      padding: 30px 50px;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      color: white;
+      background-color: rgba(255, 255, 255, 0.2);
+      margin: 60px 0 auto;
+    }
+
+    #button-container {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      gap: 40px;
+      margin: 30px auto;
+    }
+
+    /* Estilos para el botón de enviar adivinanza */
+    #submit-guess,
+    #skip-button {
+      border: transparent;
+      padding: 20px 40px;
+      border-radius: 5px;
+      font-size: 1rem;
+      font-weight: 800;
+      color: white;
+      transition: background-color 0.5s ease-in-out;
+    }
+
+    #submit-guess {
+      background-color: rgb(48, 62, 255);
+    }
+
+    #submit-guess:hover {
+      background-color: rgb(78, 90, 255);
+    }
+
+    #skip-button {
+      background-color: rgb(55, 102, 255);
+    }
+
+    #skip-button:hover {
+      background-color: rgb(127, 157, 255);
+    }
+
+    #lives-container {
+      font-size: 2.5rem;
+    }
+
+    #pistas-display {
+      color: white;
+      font-size: 1.2rem;
+      font-weight: 900;
+    }
+
+    #result {
+      font-size: 1.3rem;
+      font-weight: 900;
+    }
+
+    #score-display {
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: white;
+      margin: 40px 0 auto;
+    }
+  }
+}
+
+/* Pantalla de Game Over */
+#game-over-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+
+  #retry-button {
+    border: transparent;
+    padding: 20px 40px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 800;
+    color: white;
+    background-color: rgb(55, 102, 255);
+    transition: background-color 0.5s ease-in-out;
+  }
+
+  #retry-button:hover {
+    background-color: rgb(127, 157, 255);
+  }
+
+  #correct-game {
+    margin: 60px auto;
+    color: rgb(136, 197, 255);
+    font-size: 1.3rem;
+    font-weight: 900;
+  }
+
+  #game-over-score {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: white;
+    margin: 40px 0 auto;
+  }
+
+  #share-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 70px 0 0 0;
+  }
+
+  #share-twitter,
+  #share-whatsapp {
+    border: transparent;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 800;
+    color: white;
+    transition: background-color 0.5s ease-in-out;
+  }
+
+  #share-twitter {
+    background-color: rgb(24, 26, 156);
+  }
+
+  #share-twitter:hover {
+    background-color: rgb(5, 20, 70);
+  }
+
+  #share-whatsapp {
+    background-color: rgb(61, 156, 24);
+  }
+
+  #share-whatsapp:hover {
+    background-color: rgb(18, 70, 5);
+  }
+}
+
+footer {
+  padding: 20px;
+  background-color: rgba(0, 174, 255, 0.76);
+  padding: 30px 60px;
+  text-align: center;
+  border-radius: 500000px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+footer img {
+  width: 50px;
+}
+
+footer p {
+  color: white;
+  margin: 10px 0 0 0;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    min-height: 100vh;
+  }
+
+  header {
+    gap: 30px;
+    flex-direction: column;
+    background-color: transparent;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+
+  main {
+    width: 95%;
+  }
+
+  #game-container {
+    height: calc(100vh - 200px);
+
+    & input {
+      font-size: 0.5rem;
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+
+  .modal-content {
+    /* Estilos específicos para el contenido del modal */
+    width: 95%;
+
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 0.8rem;
+    }
+
+    ul {
+      flex-direction: column;
+      gap: 30px;
+      width: 100%;
+    }
+
+    a {
+      width: 100%;
+      font-size: 0.7rem;
+    }
+  }
+}
