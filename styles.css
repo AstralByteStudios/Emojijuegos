@@ -368,6 +368,10 @@ footer p {
       width: 100%;
       margin: 10px 0;
     }
+
+    & #emote-display {
+      width: 100%;
+    }
   }
 
   .modal-content {
