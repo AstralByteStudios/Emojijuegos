@@ -340,7 +340,7 @@ footer p {
   margin: 10px 0 0 0;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 300px) {
   body {
     min-height: 100vh;
   }
