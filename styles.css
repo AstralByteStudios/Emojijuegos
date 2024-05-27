@@ -370,6 +370,7 @@ footer p {
     }
 
     & #emote-display {
+      font-size: 2rem;
       width: 100%;
     }
   }
