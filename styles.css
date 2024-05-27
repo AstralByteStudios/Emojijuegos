@@ -357,12 +357,10 @@ footer p {
   }
 
   main {
-    width: 95%;
+    width: 100%;
   }
 
   #game-container {
-    height: calc(100vh - 200px);
-
     & input {
       font-size: 0.5rem;
       width: 100%;
@@ -371,6 +369,7 @@ footer p {
 
     & #emote-display {
       font-size: 2rem;
+      padding: 10px 20px;
       width: 100%;
     }
   }
